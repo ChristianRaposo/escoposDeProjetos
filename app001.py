@@ -1,0 +1,5 @@
+print('=================================Calculadora George Simon Ohm==================================================')
+watts = float(input(f'Insira a potência do seu dispositivo em Watts: ' ))
+volts = float(input(f'Insira a tensão do seu dispositvo em Volts: '))
+amp = (watts / volts)
+print(f'O seu dispositivo consome uma corrente de {amp:.2f} Amperes para funcionar!')
